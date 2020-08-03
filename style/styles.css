@@ -1,0 +1,166 @@
+body{
+    font: 16px "Montserrat", sans-serif;
+    line-height: 1.8;
+}
+
+.mainwrapper {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#TGIF-logo{
+    width: 100%;
+    height: auto;
+}
+
+#topmenu{
+    padding-top: 10px;
+    margin: 0;
+}
+
+.topmenu{
+    padding: 0;
+}
+
+.topmenu a,
+button.btn.btn-link{
+    color: RGB(51, 51 ,51);
+    font-weight: bold;
+}
+
+.navbar{
+    padding: 0 15px;
+    height: 50px;
+    border-radius: 4px;
+    margin-bottom: 0;
+}
+
+.bg-custom{
+    background-color: #F5F5F5;
+}
+
+.nav-item.active{
+    background-color: lightgray;
+}
+
+.dropdown-item.active{
+    background-color: #6c757d;
+}
+
+.nav-item{
+    padding: 0 10px;
+}
+
+.nav-link {
+    height: 50px;
+    padding: .7rem;
+}
+
+.row{
+    padding-top: 40px;
+}
+
+.index-content,
+.senators-content,
+.house-content{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.index-content p,
+.senators-content p,
+.house-content p{
+    text-align: justify;
+}
+
+.index-content h2,
+.senators-content h1,
+.house-content h1{
+    margin-top: 0;
+}
+
+.index-web{
+    padding-top: 20px;
+}
+
+.card-header{
+    padding: 10px 15px;
+}
+
+#TGIF-index-image{
+    width: 100%;
+    height: auto;
+}
+
+
+.table-container{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0;
+}
+
+.footer-container{
+    height: 100px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer-container div{
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.footer-container p{
+    margin: auto;
+}
+
+.footer p{
+    color: rgba(0, 0, 0, .5);
+    font-weight: bold;
+}
+
+
+#inlineCheckbox1{
+margin-left: 30px;
+}
+
+
+.alineacion{
+display:flex;
+justify-content: right;
+} 
+
+
+.tituloTabla{
+ font-size: 3vh;   
+ text-align: right;
+}
+
+/* Maquetacion de cuadros */
+
+#principal{
+    width: 70vh;
+    margin-top: 4vh;
+    margin-left: 5vh;
+}
+
+.alineacion2{
+    display:flex;
+    flex-direction:row;
+   
+}
+
+.alineacion >*{
+    flex:1;
+}
+
+#tablaDerecha{
+    margin-left: 33vh;
+}

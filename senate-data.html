@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="./style/styles.css">
+  <title>Senate Data</title>
+</head>
+
+<body>
+
+  <div class="container-fluid mainwrapper">
+    
+    <header>
+
+      <div class="row">
+        <div class="col-sm-4 tex-left">
+            <a href="index.html" >
+              <img id="TGIF-logo" class="image-responsive" src="/imagenes/header.png" alt="TGIF logo">
+            </a>
+        </div>
+        <div class="col-sm-8 text-right">
+            <a href="mailto:berenguer.pou@gmail.com">
+              <span class="glyphicon glyphicon-envelope">
+              </span>
+            </a>
+            <a id="web-mail" href="#"> info@tgif.net</a>
+          </div>
+      </div>
+
+      <div class="row" id="topmenu">
+        <div class="col-sm-12 topmenu">
+          
+          <nav class="navbar navbar-expand-sm bg-light navbar-light sticky-top">
+              
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item dropdown active">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Congress 113</a>
+                    <ul id="congressNavOptions" class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item active" href="house-data.html">House</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="senate-data.html">Senate</a>
+                      </li>            
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown active">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Attendance</a>
+                    <ul id="congressNavOptions" class="dropdown-menu">
+                </li>
+                <li>
+                    <a class="dropdown-item active" href="attendance-house.html">House</a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="attendance-senate.html">Senate</a>
+                </li>
+              
+              </ul>
+              <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Party Loyalty</a>
+                  <ul id="congressNavOptions" class="dropdown-menu">
+              </li>
+              <li>
+                  <a class="dropdown-item active" href="party-loyalty-house.html">House</a>
+              </li>
+              <li>
+                  <a class="dropdown-item" href="party-loyalty-senate.html">Senate</a>
+              </li>
+          
+          
+            </nav>
+
+        </div>
+      </div>
+      
+    </header>
+    
+    <main>
+      <div id="app">
+      <div class="row senators-content">
+      
+        <div class="col-sm-12">
+          <h1>SENATORS</h1>
+          <p>First convened in 1789, the composition and powers of the Senate are established in Article One of the U.S.
+            Constitution. Each state is represented by two senators, regardless of population, who serve staggered
+            six-year
+            terms. The Senate has several exclusive powers not granted to the House, including consenting to treaties as
+            a
+            precondition to their ratification and consenting to or confirming appointments of Cabinet secretaries,
+            federal
+            judges, other federal executive officials, military officers, regulatory officials, ambassadors, and other
+            federal uniformed officers, as well as trial of federal officials impeached by the House.</p>
+        </div>
+      </div>
+
+
+
+
+      <div class="senado">
+
+        <!-- TABLAS -->
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Senator</th>
+            <th scope="col">Party</th>
+            <th scope="col">State</th>
+            <th scope="col">Years in office</th>
+            <th scope="col">% Votes w/ Party</th>
+            
+          </tr>
+        </thead>
+        <tbody id="contenido" v-for="valor in informacion">
+          <tr>
+             <th scope="row"><a href="valor.link">{{valor.apellido}}, {{valor.nombre}}</a></th>     
+            <td>{{valor.partido}}</td>
+            <td>{{valor.estado}}</td>
+            <td>{{valor.añosTrabajados}}</td>
+            <td>{{valor.porcentajeConPartido}}%</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div> 
+    </div>
+    </main>
+
+    <footer>
+      <div class="row footer-container">
+        <div class="footer bg-custom text-white-50 col-sm-12 text-center">
+          <p>&copy;2016 TGIF | All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+ 
+  <!-- Vue.js-->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <!--Jquery Ajax-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="script/estadisticas.js "></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
