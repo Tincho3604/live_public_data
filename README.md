@@ -45,7 +45,7 @@ Procedemos a mostrar las tablas y describir que función cumple cada una:
 
 
 
-## :clipboard: 4er TABLA :clipboard:
+## :clipboard: 4ta TABLA :clipboard:
 | SENATE | HOUSE |
 | ------------- | ------------- |
 | **Datos de los representantes Datos de los representantes**  |
