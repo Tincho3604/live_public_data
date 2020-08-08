@@ -1,7 +1,7 @@
 # :chart_with_upwards_trend: LIVE PUBLIC SERVER :chart_with_downwards_trend:
 
 La web tiene como finalidad mostrar información de una API, la cual vamos a representar en distintas tablas, para mostrar diferentes datos puntuales que se requieren para poder evaluar el objetivo que necesitamos. 
-Procedemos a mostrar los cuadros y describir que función cumple cada uno: 
+Procedemos a mostrar las tablas y describir que función cumple cada una: 
 
 
 ##  :clipboard: 1er TABLA :clipboard:
