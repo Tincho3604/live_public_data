@@ -167,6 +167,6 @@ Navegadores necesarios para correr la web:
 ## 🎁 ¡Agradecimientos !🎁
 
 * Este proyecto fue desarrollado en el bootcamp de Mindhub, como parte del desarrollo en el modulo (Desarrollo web Javascript) 📢
-* Da las gracias públicamente a Fernando Biaus por ser el tutor y profesor que me guio en este proyecto🤓 .
+
 
 
