@@ -13,6 +13,7 @@ We proceed to show the tables and describe what function each one fulfills:
 |  Political party |  Political party  |
 |  Years in activity  |  Years in activity  |
 |  Percentage of votes per party | Percentage of votes per party  |
+
 _DESCRIPTION -> [Upon receiving the API information in JSON format with the data of each representative, what we do is filter and use only the data that is described in the table] _
 
 ![cuadro 1](https://user-images.githubusercontent.com/62455807/89721371-2583f600-d9b3-11ea-9bf2-764ab3af82d8.png)
@@ -24,6 +25,7 @@ _DESCRIPTION -> [Upon receiving the API information in JSON format with the data
 |  Members per game  |  Members per game  |
 |  Total number of representatives  |  Total number of representatives  |
 |  Average% of votes per party  |  Average% of votes per party  |
+
 _DESCRIPTION -> [We made a general table with the number of representatives filtering the JSON and obtaining the number of members per party and the average of votes per party]._
 
 
@@ -37,6 +39,7 @@ _DESCRIPTION -> [We made a general table with the number of representatives filt
 |  Data of the representatives Data of the representatives  |
 |  Number of absent votes - Number of total votes  | Number of absent votes - Number of total votes  |
 |  Average% of absence  |  Average% of absence  |
+
 _DESCRIPTION -> [In this table we are going to represent 10% of the number of representatives who were absent and which have the highest percentage of absences in the total of the sessions]._
 
 
@@ -51,6 +54,7 @@ _DESCRIPTION -> [In this table we are going to represent 10% of the number of re
 |  Data of the representatives Data of the representatives  |
 |  Number of votes absent - Number of total votes  |  Number of votes absent - Number of total votes  |
 |  Average% of absence  |  Average% of absence  |
+
 _DESCRIPTION -> [In this table we are going to represent the 10% of the number of representatives who were absent the least and who have the lowest percentage of absences in the total of the sessions]._
 
 
@@ -65,6 +69,7 @@ _DESCRIPTION -> [In this table we are going to represent the 10% of the number o
 |  Data of the representatives Data of the representatives  |
 |  Number of votes against - Number of total votes  |  Number of votes against - Number of total votes  |
 |  Loyalty percentage%  |  Loyalty percentage%  |
+
 _DESCRIPTION -> [In this table we are going to represent 10% of the number of representatives who are least loyal and who have the highest percentage of votes against their party in the total number of sessions]._
 
 
@@ -78,6 +83,7 @@ _DESCRIPTION -> [In this table we are going to represent 10% of the number of re
 |  Data of the representatives Data of the representatives  |
 |  Number of votes in favor - Number of total votes  |  Number of votes in favor - Number of total votes  |
 |  Loyalty percentage%  |  Loyalty percentage%  |
+
 _DESCRIPTION -> [In this table we are going to represent 10% of the number of representatives who are most loyal and who have the highest percentage of votes in favor of their party in all sessions]._
 
 ![cuadro mas leal](https://user-images.githubusercontent.com/62455807/89721457-06399880-d9b4-11ea-8337-832afc4af259.png)
