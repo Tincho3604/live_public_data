@@ -14,7 +14,7 @@ We proceed to show the tables and describe what function each one fulfills:
 |  Years in activity  |  Years in activity  |
 |  Percentage of votes per party | Percentage of votes per party  |
 
-_DESCRIPTION -> [Upon receiving the API information in JSON format with the data of each representative, what we do is filter and use only the data that is described in the table] _
+_DESCRIPTION -> [Upon receiving the API information in JSON format with the data of each representative, what we do is filter and use only the data that is described in the table]_
 
 ![cuadro 1](https://user-images.githubusercontent.com/62455807/89721371-2583f600-d9b3-11ea-9bf2-764ab3af82d8.png)
 
